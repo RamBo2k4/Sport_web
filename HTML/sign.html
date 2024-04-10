@@ -46,20 +46,23 @@
                 <i class="fa-solid fa-lock"></i>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Nhập lại mật khẩu" required>
+                <input id="txtNLMK" type="password" placeholder="Nhập lại mật khẩu" onblur="CheckNLMK()" required>
+                <span class="mx-3 text-warning" id="tbNLMK"></span>
                 <i class="fa-solid fa-lock"></i>
             </div>
             <div class="input-box"> 
-                <input type="email" placeholder="Email" required >
+                <input id="txtE" type="email" placeholder="Email" onblur="CheckE()" required >
+                <span class="mx-3 text-warning" id="tbE"></span>
                 <i class="fa-solid fa-envelope"></i>
             </div>
             <div class="input-box"> 
-                <input type="text" placeholder="Số điện thoại" required >
+                <input id="txtSDT" type="text" placeholder="Số điện thoại" onblur="CheckSDT()" required >
+                <span class="mx-3 text-warning" id="tbSDT"></span>
                 <i class="fa-solid fa-phone"></i>   
             </div>
             
                 
-            <a href="../html/login.html"><button type="button" class="btn">Đăng ký</button></a>
+            <a  href="../html/login.html"><button type="submit" class="btn">Đăng ký</button></a>
                 
 
         </form>
