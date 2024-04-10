@@ -1,0 +1,19 @@
+.container a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container a:hover{
+    color: red;
+}
+
+.container #hello{
+    margin-left: 180px;
+    height: 400px;
+    width: 70%;
+    
+}
+
+h1,h3{
+    color:rgb(227, 46, 46);
+}

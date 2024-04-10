@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link  href="../CSS/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="../JS/js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="../CSS/style_login.css">
+    <link rel="shotcut icon" href="../IMG/logo_shop.png">
+    </head>
+<body >
+    <div class="wrapper" >   
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link text-black" href="../HTML/home.html">X</a> 
+            </li>
+        </ul>
+        <form action="#">
+            <h1>Đăng nhập</h1>
+            <!-- Username --> 
+            <div class="input-box">
+                <input  type="text" placeholder="Tên đăng nhập" required >
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <!-- Password-->
+            <div class="input-box">
+                <input type="password" placeholder="Mật khẩu" required>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label> <input type="checkbox"> Nhớ mật khẩu</label>
+                <a href="#">Quên mật khẩu?</a>
+            </div>
+
+            <button type="submit" class="btn">Đăng nhập</button>
+
+            <div class="register-link"> <p>Bạn chưa có tài khoản?
+                <a href="../HTML/sign.html">Đăng ký</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
