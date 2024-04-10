@@ -23,7 +23,7 @@ function CheckDN(){
     }
 }
 function CheckMK(){
-    let regex = /^[A-Z]{1}$/;
+    let regex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
     let MK = document.getElementById("txtMK").value;
     if (MK.trim().length == 0) {
         document.getElementById("tbMK").innerHTML = "Không để trống";
@@ -35,4 +35,4 @@ function CheckMK(){
         document.getElementById("tbMK").innerHTML = "";
         return true;
     }
-}l
+}
