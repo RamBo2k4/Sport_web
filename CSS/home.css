@@ -106,9 +106,13 @@ body{
   width: 100%;
 }
 
-/* .card{
-  height: 350px;
-} */
+.card .card-img-top img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card .card-img-top img:hover {
+  transform: scale(1.2);
+}
 .card-body {
   margin-top: -20px;
   text-align: center;
