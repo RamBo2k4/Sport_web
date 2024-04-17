@@ -125,13 +125,15 @@ body {
 .card-body a {
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
-.card-body a:hover {
-    color: red;
+a .btn p:hover{
+    color: #ff3c78;
 }
 
-.card-footer {
+
+.card-footer {  
     text-align: center;
     color: red;
 }
