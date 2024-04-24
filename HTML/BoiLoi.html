@@ -1,0 +1,1679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="../CSS/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="../JS/js/jquery-3.7.1.min.js"></script>
+    <link rel="shotcut icon" href="../IMG/logo_shop.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/style_BoiLoi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>SHOP THỂ THAO</title>
+</head>
+
+<body>
+    <header id="header">
+        <!-- dau header -->
+        <div class="container ">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link " style="color: black;" href="../HTML/GioiThieu.html"><i
+                            class="fa-solid fa-circle-info" style="color: #0a57db;"></i> Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: black;" href="../HTML/login.html"><i class="fa-solid fa-user"
+                            style="color: #1841a0;"></i> Đăng nhập/Đăng ký</a>
+                </li>
+            </ul>
+        </div>
+        <!-- giua header -->
+        <div class="container">
+            <div class="row">
+                <!-- logo -->
+                <div class="col-md-4" style="align-items: center;">
+                    <a href="../HTML/home.html"><img src="../IMG/logo_shop.png" alt="" srcset="" width="250px"
+                            height="100px"></a>
+                </div>
+                <div class="col-md-4">
+                    <!-- search -->
+                    <div class="InputContainer">
+                        <input type="text" name="text" class="input" id="input" placeholder="Search">
+
+                        <button class="micButton">
+                            <svg viewBox="0 0 512 512" class="searchIcon">
+                                <path
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+                                </path>
+                            </svg>
+                        </button>
+
+                        <div class="border"></div>
+
+                        <button class="micButton"><svg viewBox="0 0 384 512" class="micIcon">
+                                <path
+                                    d="M192 0C139 0 96 43 96 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z">
+                                </path>
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col-md">
+                        <!-- hotline -->
+                        <div class="col-4"><i class="fa-solid fa-phone-volume fa-2xl"
+                                style="color: red; margin-top: 35%; margin-left: 20%; float: left;"></i></div>
+                        <div class="col-8" style="float: left;margin-top: 3%; color: brown;"><a class="nav-link"
+                                href="#" style="color: red;">hotline <br>0375917110</a></div>
+                    </div>
+                    <div class="col-md">
+                        <!-- gio hang -->
+                        <a class="nav-link border-2" href="../HTML/GioHang.html"><i
+                                class="fa-solid fa-basket-shopping fa-2xl"
+                                style="color: red; margin-top: 10%; float: left; "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark my-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand mx-5" href="../HTML/home.html"><i class="fa-solid fa-house"
+                    style="color: red;"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="mynavbar">
+                <ul class="nav navbar-nav me-auto  ">
+                    <!-- item 1 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="../HTML/DungCuTheThao.html" role="button"
+                            data-bs-toggle="dropdown">DỤNG CỤ THỂ
+                            THAO</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item text-white" href="../HTML/BongDa.HTML">BÓNG ĐÁ</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/BongChuyen.html">BÓNG CHUYỀN</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/BoiLoi.html">BƠI LỘI</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/CauLong.html">CẦU LÔNG</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/Tennis.html">TENNIS</a></li>
+                        </ul>
+                    </li>
+                    <!-- item 2 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="../HTML/DungCuTheHinh.html" role="button"
+                            data-bs-toggle="dropdown">DỤNG CỤ THỂ
+                            HÌNH</a>
+                        <ul class="dropdown-menu bg-dark ">
+                            <li><a id="list" class="dropdown-item text-white " href="../HTML/MayTapTheHinh.html">MÁY TẬP
+                                    THỂ HÌNH</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/MayTapCoBung.html">MÁY TẬP CƠ BỤNG</a>
+                            </li>
+                            <li><a class="dropdown-item text-white" href="../HTML/TaVSPhuKienTheHinh.html">TẠ & PHỤ KIỆN
+                                    THỂ HÌNH</a></li>
+                        </ul>
+                    </li>
+                    <!-- item 3 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="../HTML/TrangPhucTheThao.html"
+                            role="button" data-bs-toggle="dropdown">TRANG PHỤC
+                            THỂ THAO</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a href="../HTML/QuanAoBongDa.html" class="dropdown-item text-white">QUẦN ÁO BÓNG ĐÁ</a>
+                            </li>
+                            <li><a href="../HTML/QuanAoBongChuyen.html" class="dropdown-item text-white">QUẦN ÁO BÓNG
+                                    CHUYỀN</a></li>
+                            <li><a href="../HTML/QuanAoBoiLoi.html" class="dropdown-item text-white">QUẦN ÁO BƠI -
+                                    LẶN</a></li>
+                            <li><a href="../HTML/QuanAoTennis.html" class="dropdown-item text-white">QUẦN ÁO CẦU LÔNG
+                                    -TENNIS</a></li>
+                        </ul>
+                    </li>
+                    <!-- item 4 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white " href="../HTML/ThietBiDayHoc.html" role="button"
+                            data-bs-toggle="none">THIẾT BỊ DẠY
+                            HỌC</a>
+                    </li>
+                    <!-- item 5 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="../HTML/SanPhamKhac.html" role="button"
+                            data-bs-toggle="dropdown">SẢN PHẨM
+                            KHÁC</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a href="../HTML/DungCuNgoaiTroi.html" class="dropdown-item text-white">DỤNG CỤ NGOÀI
+                                    TRỜI</a></li>
+                            <li><a href="../HTML/BangBaoVe.html" class="dropdown-item text-white">BĂNG BẢO VỆ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <section> -->
+    <section>
+        <div class="container">
+            <h1>DỤNG CỤ BƠI LỘI</h1>
+            <P>Để đảm bảo an toàn khi tham gia bơi dưới nước và giúp bơi chuyên nghiệp hơn thì hiện nay rất nhiều dụng
+                cụ bơi lội đã được sản xuất, bán ra trên thị trường. Nếu đang có nhu cầu sở hữu cho mình dụng cụ bơi lội
+                chất lượng, hãy liên hệ ngay với Mạnh-Nguyên Sport để được chúng tôi tư vấn và đặt hàng nhanh chóng.
+                Hotline 0375917110 !</P>
+
+            <div class="bg-dark-subtle">
+                <h3 class="nomal-title p-2">
+                    <a href="#">KÍNH BƠI</a>
+                </h3>
+
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                        <!-- Sản phẩm 1 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/Kinh-boi-can-View-V510.png" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#kinh1">
+                                    <p style="color: #0a57db;">Kính bơi cận View V510 </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>450.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="kinh1">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Kính bơi cận View V510 </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/Kinh-boi-can-View-V510.png"
+                                                        alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Kính bơi cận View V510 </h3>
+                                                        <p>- Mã sản phẩm: V510.</p>
+                                                        <p>- Thương hiệu: View</p>
+                                                        <p>- Xuất xứ: Nhật Bản.</p>
+                                                        <p>- Tròng kính làm từ chất liệu polycarbonate cao cấp cho góc
+                                                            nhìn rộng và rõ nét khi đi bơi.</p>
+                                                        <p>- Dây đeo sử dụng chất liệu silicone cực êm, thân thiện với
+                                                            da và có thể điều chỉnh độ rộng dây dễ dàng.</p>
+                                                        <p>- Vành mũi có nhiều kích thước giúp phù hợp với nhiều lứa
+                                                            tuổi.</p>
+                                                        <p>- Trọng lượng kính: 140 gram.</p>
+                                                        <p>- Kính cận bơi có độ cận từ -2.0 đến -8.0 nên phù hợp với
+                                                            nhiều đối tượng sử dụng.</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Kính bơi cận View V510 </b>
+                                                            giúp người bị cận đi bơi dễ dàng và thoải mái nhất. Kính tạo
+                                                            cảm giác an toàn, bảo vệ đôi mắt cho người bơi khi tới các
+                                                            hồ bơi đông người.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>450.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 2 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/Kinh-boi-View-V500S.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#kinh2">
+                                    <p style="color: #0a57db;">Kính bơi View V500S </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>350.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="kinh2">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Kính bơi View V500S </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/Kinh-boi-View-V500S.png"
+                                                        alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Kính bơi View V500S </h3>
+                                                        <p>- Mã sản phẩm: V500S.</p>
+                                                        <p>- Thương hiệu: View</p>
+                                                        <p>- Xuất xứ: Nhật Bản.</p>
+                                                        <p>- Tròng kính làm từ chất liệu polycarbonate cao cấp cho góc
+                                                            nhìn rộng và rõ nét khi đi bơi.</p>
+                                                        <p>- Miếng đệm trên mặt và dây đeo làm bằng chất silicon có độ
+                                                            đàn hồ cao giúp không gây đau khi đeo. Ngoài ra, dây đeo của
+                                                            kính bơi có thể dễ dàng điều chỉnh nên phù hợp cho mọi đối
+                                                            tượng sử dụng.</p>
+                                                        <p>- Vành mũi có nhiều kích thước giúp phù hợp với nhiều lứa
+                                                            tuổi.</p>
+                                                        <p>- Trọng lượng kính: 135 gram.</p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Kính bơi View V500S </b>
+                                                            có tác dụng giúp người bơi không bị nước tràn vào mắt nhằm
+                                                            tránh các bệnh lây nhiễm khi tới bể bơi đông người. Ngoài
+                                                            ra, kính còn giúp bạn cảm thấy dễ chịu khi đi bơi, góc nhìn
+                                                            rộng và không ảnh hưởng đến thị lực...
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>350.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 3 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/kinh-v610.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#kinh3">
+                                    <p style="color: #0a57db;">Kính bơi View V610 </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>350.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="kinh3">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Kính bơi View V610 </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/kinh-v610.png" alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Kính bơi View V610 </h3>
+                                                        <p>- Mã sản phẩm: V500S.</p>
+                                                        <p>- Thương hiệu: View</p>
+                                                        <p>- Xuất xứ: Nhật Bản.</p>
+                                                        <p>- Tròng kính trong suốt, có khả năng chống trầy xước hiệu quả
+                                                            và dễ vệ sinh sau khi sử dụng. Ngoài ra, tròng kính còn được
+                                                            thiết kế góc nhìn rộng, không ảnh hưởng đến tầm nhìn của
+                                                            người sử dụng.</p>
+                                                        <p>- Dây đeo bằng Silicon siêu mềm mại, có độ đàn hồi co giãn
+                                                            tốt và đồng thời độ dày dây đeo còn có thể thay đổi để phù
+                                                            hợp với mọi kích cỡ người dùng.</p>
+                                                        <p>- Kính bơi có khả năng chống tia UV trong ánh nắng gây hại.
+                                                        </p>
+                                                        <p>- Trọng lượng kính: 130 gram.</p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Kính bơi View V610 </b>
+                                                            có tác dụng giúp người bơi không bị nước tràn vào mắt nhằm
+                                                            tránh các bệnh lây nhiễm khi tới bể bơi đông người. Ngoài
+                                                            ra, kính còn giúp bạn cảm thấy dễ chịu khi đi bơi, góc nhìn
+                                                            rộng và không ảnh hưởng đến thị lực...
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>350.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 4 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/kinh-v540.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#kinh4">
+                                    <p style="color: #0a57db;">Kính bơi View V540 </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>450.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="kinh4">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Kính bơi View V540 </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/kinh-v610.png" alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Kính bơi View V540 </h3>
+                                                        <p>- Mã sản phẩm: V540.</p>
+                                                        <p>- Thương hiệu: View</p>
+                                                        <p>- Xuất xứ: Nhật Bản.</p>
+                                                        <p>- Mắt kính làm từ chất liệu polycarbonate cao cấp cho góc
+                                                            nhìn rộng và rõ nét khi xuống nước. Ngoài ra, kính còn có
+                                                            chức năng chống tia UV hiệu quả khi sử dụng bơi ngoài trời.
+                                                        </p>
+                                                        <p>- Dây đeo và vành kính tiếp xúc với da sử dụng chất liệu
+                                                            silicone cực êm, thân thiện với da và có thể điều chỉnh độ
+                                                            rộng dây dễ dàng.</p>
+                                                        <p>- Vành mũi có nhiều kích thước giúp phù hợp với nhiều lứa
+                                                            tuổi.</p>
+                                                        <p>- Trọng lượng kính: 150 gram.</p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Kính bơi View V610 </b>
+                                                            có tác dụng giúp người bơi không bị nước tràn vào mắt nhằm
+                                                            tránh các bệnh lây nhiễm khi tới bể bơi đông người. Ngoài
+                                                            ra, kính còn giúp bạn cảm thấy dễ chịu khi đi bơi, góc nhìn
+                                                            rộng và không ảnh hưởng đến thị lực...
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>450.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 5 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/kinh-v2000a.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#kinh5">
+                                    <p style="color: #0a57db;">Kính bơi View V2000A </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>520.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="kinh5">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Kính bơi View V2000A </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/kinh-v2000a.png" alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Kính bơi View V2000A </h3>
+                                                        <p>- Mã sản phẩm: V2000A.</p>
+                                                        <p>- Thương hiệu: View</p>
+                                                        <p>- Xuất xứ: Nhật Bản.</p>
+                                                        <p>- 2 mắt kính làm từ chất liệu Polycarbonate cao cấp, cực kỳ
+                                                            trong suốt và cho góc nhìn rộng khi xuống nước. Phần mắt
+                                                            kính sử dụng công nghệ Super Anti-Fog có tác dụng giúp chống
+                                                            mờ kính do mồ hôi hay sức nóng và công nghệ UV Cut giúp bảo
+                                                            vệ mắt khỏi tia cực tím có hại khi bơi ngoài trời.</p>
+                                                        <p>- Phần dây đeo của kính bơi làm từ chất liệu Silicone cực
+                                                            mềm, thân thiện với da mặt và có thể thay đổi kích thước dễ
+                                                            dàng.</p>
+                                                        <p>- Phần vành mũi làm từ Elastomer có độ đàn hồi tốt, có 3 size
+                                                            (S, M, L) thay đổi dễ dàng giúp phù hợp cho cả nam và nữ
+                                                            giới.</p>
+                                                        <p>- Trọng lượng kính: 165 gram.</p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Kính bơi View V2000A </b>
+                                                            có tác dụng giúp người bơi không bị nước tràn vào mắt nhằm
+                                                            tránh các bệnh lây nhiễm khi tới bể bơi đông người. Ngoài
+                                                            ra, kính còn giúp bạn cảm thấy dễ chịu khi đi bơi, góc nhìn
+                                                            rộng và không ảnh hưởng đến thị lực...
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>520.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-dark-subtle mt-5">
+                <h3 class="nomal-title p-2">
+                    <a href="#">MŨ BƠI</a>
+                </h3>
+
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                        <!-- Sản phẩm 1 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-view.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu1">
+                                    <p style="color: #0a57db;">Mũ bơi View </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>165.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu1">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi View</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img src="../IMG/DungCuTheThao/BoiLoi/mu-view.png"
+                                                        alt="" width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi View</h3>
+                                                        <p>- Thương hiệu: View</p>
+                                                        <p>- Xuất xứ: Nhật Bản.</p>
+                                                        <p>- Chất liệu: Silicon.</p>
+                                                        <p>- Màu sắc: xanh nhạt, đen, trắng, bạc, xanh dương.</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p>&nbsp;</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi View </b>
+                                                            có tính đàn hồi cao, ôm trọn mái tóc của bạn giúp bảo vệ tóc
+                                                            tránh tiếp xúc khỏi hóa chất clo có trong bể bơi. Ngoài ra,
+                                                            mũ bơi giúp bạn luôn gọn gàng và khả năng bơi nhanh hơn khi
+                                                            giảm được ma sát dưới nước.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>165.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 2 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-phoenix.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu2">
+                                    <p style="color: #0a57db;">Mũ bơi Phoneix </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>130.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu2">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi Phoenix</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/mu-phoenix.png" alt=""
+                                                        width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi Phoenix</h3>
+                                                        <p>- Thương hiệu: Phoenix</p>
+                                                        <p>- Xuất xứ: Hàn Quốc.</p>
+                                                        <p>- Chất liệu: Silicon.</p>
+                                                        <p>- Màu sắc: xanh nhạt, đen, trắng, bạc, xanh dương.</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p>&nbsp;</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi Phoenix </b>
+                                                            được thiết kế đẹp mắt từ chất liệu silicon cao cấp cực mềm,
+                                                            êm và an toàn cho sức khỏe người sử dụng. Mũ có độ co giãn
+                                                            đàn hồi tốt giúp ôm sát đầu nhưng vẫn tạo cảm giác thoải mái
+                                                            khi bơi.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>130.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 3 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-conquest.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu3">
+                                    <p style="color: #0a57db;">Mũ bơi Conquest có tai</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>130.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu3">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi Conquest có tai</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/mu-conquest.png" alt=""
+                                                        width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi Conquest có tai</h3>
+                                                        <p>- Mã sản phẩm: MBCCT.</p>
+                                                        <p>- Thương hiệu: Conquest</p>
+                                                        <p>- Xuất xứ: Hàn Quốc.</p>
+                                                        <p>- Chất liệu: Silicon.</p>
+                                                        <p>- Màu sắc: vàng, hồng, xanh, đỏ,...</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi Conquest có tai</b>
+                                                            có tính đàn hồi cao, ôm trọn mái tóc của bạn giúp bảo vệ tóc
+                                                            tránh tiếp xúc khỏi hóa chất clo có trong bể bơi. Ngoài ra,
+                                                            mũ bơi giúp bạn luôn gọn gàng và khả năng bơi nhanh hơn khi
+                                                            giảm được ma sát dưới nước.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>130.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 4 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-silicone.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu4">
+                                    <p style="color: #0a57db;">Mũ bơi Silicone gai </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>140.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu4">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi Silicone gai </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/mu-silicone.png" alt=""
+                                                        width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi Silicone gai </h3>
+                                                        <p>- Thương hiệu: Khác</p>
+                                                        <p>- Xuất xứ: Trung Quốc.</p>
+                                                        <p>- Chất liệu: Silicon.</p>
+                                                        <p>- Màu sắc: vàng, hồng, xanh, đỏ,...</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi Silicone gai </b>
+                                                            có tính đàn hồi cao, ôm trọn mái tóc của bạn giúp bảo vệ tóc
+                                                            tránh tiếp xúc khỏi hóa chất clo có trong bể bơi. Ngoài ra,
+                                                            mũ bơi giúp bạn luôn gọn gàng và khả năng bơi nhanh hơn khi
+                                                            giảm được ma sát dưới nước.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>140.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 5 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-whale.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu5">
+                                    <p style="color: #0a57db;">Mũ bơi Whale 3D </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>190.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu5">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi Whale 3D </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/mu-whale.png" alt=""
+                                                        width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi Whale 3D </h3>
+                                                        <p>- Thương hiệu: Khác</p>
+                                                        <p>- Xuất xứ: Trung Quốc.</p>
+                                                        <p>- Chất liệu: Silicon.</p>
+                                                        <p>- Màu sắc: vàng, hồng, xanh, đỏ, trắng...</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi Whale 3D </b>
+                                                            có tính đàn hồi cao, ôm trọn mái tóc của bạn giúp bảo vệ tóc
+                                                            tránh tiếp xúc khỏi hóa chất clo có trong bể bơi. Ngoài ra,
+                                                            mũ bơi giúp bạn luôn gọn gàng và khả năng bơi nhanh hơn khi
+                                                            giảm được ma sát dưới nước.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>190.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 6 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-yingfa.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu6">
+                                    <p style="color: #0a57db;">Mũ bơi vải Yingfa </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>135.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu6">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi vải Yingfa </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/mu-yingfa.png" alt=""
+                                                        width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi vải Yingfa </h3>
+                                                        <p>- Mã sản phẩm: MBVY.</p>
+                                                        <p>- Thương hiệu: Yingfa</p>
+                                                        <p>- Xuất xứ: Trung Quốc.</p>
+                                                        <p>- Mũ bơi vải Yingfa được may chắc chắn từ chất liệu vải
+                                                            spandex kết hợp nylon cho độ đàn hồi cực tốt và chống nước
+                                                            hiệu quả.</p>
+                                                        <p>- Màu sắc: đen, xanh, hồng,...</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi vải Yingfa </b>
+                                                            đạt tiêu chuẩn của liên đoàn bơi lội thế giới và có tác dụng
+                                                            giúp giảm lực ma sát với nước khi bơi, đồng thời ngăn ngừa
+                                                            tóc, da đầu tiếp xúc với trực tiếp với thuốc tẩy hay thuốc
+                                                            làm trong nước ở bể bơi.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>135.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 7 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-yingfa-PU.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu7">
+                                    <p style="color: #0a57db;">Mũ bơi vải Yingfa PU</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>190.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu7">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi vải Yingfa PU</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/mu-yingfa-PU.png" alt=""
+                                                        width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi vải Yingfa PU</h3>
+                                                        <p>- Mã sản phẩm: MYPU.</p>
+                                                        <p>- Thương hiệu: Yingfa</p>
+                                                        <p>- Xuất xứ: Trung Quốc.</p>
+                                                        <p>- Chất liệu vải PU có độ đàn hồi tốt và không gây ảnh hưởng
+                                                            xấu tới da. Mũ bơi với kiểu dáng thời trang, màu sắc đẹp mắt
+                                                            là phụ kiện lý tưởng cho những người yêu thích bộ môn bơi
+                                                            lội.</p>
+                                                        <p>- Màu sắc: đen, xanh, trắng ...</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi vải Yingfa PU</b>
+                                                            có tác dụng giúp giảm lực ma sát với nước khi bơi, ngăn ngừa
+                                                            lại việc tóc vướng vào mắt, mặt khi bơi và ngăn ngừa tóc, da
+                                                            đầu tiếp xúc với trực tiếp với thuốc tẩy và thuốc làm trong
+                                                            nước ở bể bơi.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>190.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 8 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-dolver.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu8">
+                                    <p style="color: #0a57db;">Mũ bơi Dolver</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>130.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu8">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi Dolver</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/mu-dolver.png" alt=""
+                                                        width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi Dolver</h3>
+                                                        <p></p>
+                                                        <p>- Thương hiệu: Dolver</p>
+                                                        <p>- Xuất xứ: Trung Quốc.</p>
+                                                        <p>- Chất liệu: Silicon cao cấp.</p>
+                                                        <p>- Màu sắc: đen, xanh, trắng ...</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi Dolver</b>
+                                                            có tính đàn hồi cao, ôm trọn mái tóc của bạn giúp bảo vệ tóc
+                                                            tránh tiếp xúc khỏi hóa chất clo có trong bể bơi. Ngoài ra,
+                                                            mũ bơi giúp bạn luôn gọn gàng và khả năng bơi nhanh hơn khi
+                                                            giảm được ma sát dưới nước.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>130.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 9 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-lipotes.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu9">
+                                    <p style="color: #0a57db;">Mũ bơi Lipotes </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>55.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu9">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi Lipotes </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/mu-lipotes.png" alt=""
+                                                        width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi Lipotes </h3>
+                                                        <p>- Mã sản phẩm: MBL.</p>
+                                                        <p>- Thương hiệu: Lipotes</p>
+                                                        <p>- Xuất xứ: Đài Loan.</p>
+                                                        <p>- Mũ bơi được thiết kế bắt mắt, làm từ chất liệu Silicon cực
+                                                            êm, bền và thân thiện với sức khỏe người sử dụng.</p>
+                                                        <p>- Màu sắc: xanh + tím kết hợp rất bắt mắt.</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi Lipotes </b>
+                                                            có tính đàn hồi cao, ôm trọn mái tóc của bạn giúp bảo vệ tóc
+                                                            tránh tiếp xúc khỏi hóa chất clo có trong bể bơi. Ngoài ra,
+                                                            mũ bơi giúp bạn luôn gọn gàng và khả năng bơi nhanh hơn khi
+                                                            giảm được ma sát dưới nước.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>55.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 10 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/mu-speedo.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#mu10">
+                                    <p style="color: #0a57db;">Mũ bơi Speedo </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>130.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="mu10">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mũ bơi Speedo </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/mu-speedo.png" alt=""
+                                                        width="80%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Mũ bơi Speedo </h3>
+                                                        <p>- Thương hiệu: Speedo</p>
+                                                        <p>- Xuất xứ: Trung Quốc.</p>
+                                                        <p>- Chất liệu: Silicon cao cấp.</p>
+                                                        <p>- Màu sắc: Xanh, hồng, tím...</p>
+                                                        <p>- Sản phẩm free size nên phù hợp sử dụng cho cả người lớn và
+                                                            trẻ em.</p>
+                                                        <p></p>
+                                                        <p></p>
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Mũ bơi Speedo </b>
+                                                            có tính đàn hồi cao, ôm trọn mái tóc của bạn giúp bảo vệ tóc
+                                                            tránh tiếp xúc khỏi hóa chất clo có trong bể bơi. Ngoài ra,
+                                                            mũ bơi giúp bạn luôn gọn gàng và khả năng bơi nhanh hơn khi
+                                                            giảm được ma sát dưới nước.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>130.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-dark-subtle mt-5">
+                <h3 class="nomal-title p-2">
+                    <a href="#">PHỤ KIỆN BƠI LỘI</a>
+                </h3>
+
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                        <!-- Sản phẩm 1 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/dung-dich.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#phuKien1">
+                                    <p style="color: #0a57db;">Dung dịch chống mờ kính bơi View </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>180.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="phuKien1">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Dung dịch chống mờ kính bơi View </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/dung-dich.png" alt="" width="80%"></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Dung dịch chống mờ kính bơi View </h3>
+                                                        <p>- Thương hiệu: View</p>
+                                                        <p>- Xuất xứ: Nhật Bản.</p>
+                                                        <p>- Sản phẩm này có dung tích 15ml, có thể làm sạch từ 300-400
+                                                            chiếc kính bơi</p>
+                                                        <p>- Sản phẩm là dung dịch chuyên dụng nhằm tránh tình trạng hơi
+                                                            sương, hơi nước đọng lại mắt kính để giúp người bơi nhìn rõ
+                                                            nét khi đeo. Sử dụng dung dịch này sẽ giúp kính sáng như mới
+                                                            khi bơi trong khoản thời gian dài 1-1,5 giờ.</p>
+                                                        <p>- Dung dịch chống mờ kính bơi View có độ nhớt cao, an toàn cho sức khỏe, không kích ứng da cho người dễ mẫn cảm. Sản phẩm chuyên cho kính bơi nhưng có tác dụng tốt với hầu hết các loại kính như kính mắt, kính cận, gương xe,...</p>   
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Dung dịch chống mờ kính bơi View </b>
+                                                            là sản phẩm chuyên dụng, có tác dụng giúp tránh tình trạng
+                                                            hơi nước đọng vào mắt kính và để giúp nhìn rõ hơn khi đi
+                                                            bơi.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>180.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 2 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/bit-tai.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#phuKien2">
+                                    <p style="color: #0a57db;">Bịt tai bơi View </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>120.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="phuKien2">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Bịt tai bơi View  </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/bit-tai.png" alt="" width="80%"></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Bịt tai bơi View </h3>
+                                                        <p>- Thương hiệu: View</p>
+                                                        <p>- Xuất xứ: Nhật Bản.</p>
+                                                        <p>- Bịt tai vơi View  được thiết kế đẹp mắt từ chất liệu silicon cao cấp cực êm, bền và an toàn cho sức khỏe người dùng. Sản phẩm free size nên dùng được cho cả người lớn và trẻ em.</p>
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Bịt tai bơi View </b>
+                                                            có tác dụng tránh nước tràn vào tai khi đi bơi và giúp bảo vệ an toàn tuyệt đối cho đôi tai của bạn.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>120.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 3 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/ao-phao.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#phuKien3">
+                                    <p style="color: #0a57db;">Áo phao tập bơi</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>60.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="phuKien3">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Áo phao tập bơi</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/ao-phao.png" alt="" width="80%"></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Áo phao tập bơi</h3>
+                                                        <p>- Mã sản phẩm: APTB.</p>
+                                                        <p>- Thương hiệu: Thắng Lợi</p>
+                                                        <p>- Xuất xứ: Việt Nam  .</p>
+                                                        <p>- Áo phao tập bơi hay áo phao cứu hộ được may chắc chắn từ chất liệu cao cấp và đảm bảo an toàn tuyệt đối khi sử dụng. Hệ thống khóa thắt chắc chắn khi sử dụng lâu ngày.</p>
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Áo phao tập bơi</b>
+                                                            được sử dụng để tập bơi hoặc cứu hộ dưới nước.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>60.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 4 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/ao-phao-tre-em-lung.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#phuKien4">
+                                    <p style="color: #0a57db;">Phao lưng tập bơi trẻ em </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>85.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="phuKien4">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Phao lưng tập bơi trẻ em </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/ao-phao-tre-em-lung.png" alt="" width="80%"></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Phao lưng tập bơi trẻ em </h3>
+                                                        <p>- Mã sản phẩm: PLTBTE.</p>
+                                                        <p>- Thương hiệu: Thắng Lợi</p>
+                                                        <p>- Xuất xứ: Việt Nam  .</p>
+                                                        <p>- Màu sắc: xanh + vàng</p>
+                                                        <p>- Phao lưng tập bơi trẻ em được làm từ chất liệu xốp chuyên dụng và có dây đeo điều chỉnh dễ dàng. Phao có độ bền cao và dùng được nhiều lần.</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Phao lưng tập bơi trẻ em </b>
+                                                            sử dụng cho trẻ từ 1 đến 8 tuổi và thắt sau lưng khi sử dụng giúp đảm bảo an toàn cho bé khi đi bơi.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>85.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 5 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/DungCuTheThao/BoiLoi/ao-phao-ban-rong.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#phuKien5">
+                                    <p style="color: #0a57db;">Phao tập bơi trẻ em bản rộng </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>90.000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="phuKien5">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Phao tập bơi trẻ em bản rộng </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/DungCuTheThao/BoiLoi/ao-phao-ban-rong.png" alt="" width="80%"></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Phao tập bơi trẻ em bản rộng </h3>
+                                                        <p>- Mã sản phẩm: PTBTE.</p>
+                                                        <p>- Thương hiệu: Thắng Lợi</p>
+                                                        <p>- Xuất xứ: Việt Nam  .</p>
+                                                        <p>- Màu sắc: xanh, tím</p>
+                                                        <p>- Phao tập bơi trẻ em bản rộng được thiết kế bắt mắt và đảm bảo an toàn tuyệt đối từ chất liệu xốp chuyên dụng. Phao có độ bền cao và sử dụng được lâu dài.</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Phao tập bơi trẻ em bản rộng </b>
+                                                            dụng cho trẻ từ 1 đến 8 tuổi khi tham gia bơi tại các hồ bơi.
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>90.000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer> -->
+    <footer class="container-fluid bg-dark mt-5">
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-6 p-2 " style="color: white; text-justify: auto;" id="f-1">
+                    <br>
+                    <p><b>DỤNG CỤ <span style="color: red;">THỂ DỤC THỂ THAO</b></span> <br></p><br>
+                    Dụng Cụ Thể Dục là đơn vị chuyên bán buôn bán lẻ dụng cụ thể thao, máy tập thể dục và dụng cụ tập
+                    Gym. Cam kết
+                    chính hãng, giá rẻ nhất tại Việt Nam. Quý khách hàng có nhu cầu mua dụng cụ thể dục, thể thao và thể
+                    hình xin
+                    vui lòng liên hệ: <br>
+                    <br><b>Hộ kinh doanh Mạnh-Nguyên Sport</b> <br><br>
+                    - Điện thoại: 0375917***<br>
+                    - Email: lienhe@dungcutheduc.vn
+                </div>
+                <div class="col-md-6">
+                    <div id="f-2" class="row">
+                        <div class="col-md-6" style=" color: white;">
+                            <br>
+                            <P><b>HỒ CHÍ MINH</b></P>
+
+                            <i class="fa-solid fa-location-dot" style="color: red;"></i> 16/1 Quang Trung, phường 11,Gò
+                            Vấp. <br>
+
+                            <i class="fa-solid fa-square-phone" style="color: red;"></i> 0375917110 <br>
+                            <i class="fa-solid fa-road" style="color: red;"></i> xem so đồ đường đi
+                        </div>
+                        <div class="col-md-6"><a href="../HTML/home.html"><img class="img-fluid"
+                                    src="../IMG/logo_shop.png" width="100%" height="70%" style="margin-top: 5%;" alt=""
+                                    srcset=""></a></div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-4" style="color: white;">
+                            <p><b>SẢN PHẨM</b></p>
+                            <p><a href="../HTML/Tennis.html" style="text-decoration: none; color: white;">Tennis</a>
+                            </p>
+                            <p><a href="../HTML/BongDa.HTML" style="text-decoration: none; color: white;">Bóng đá</a>
+                            </p>
+                            <p><a href="../HTML/BongChuyen.html" style="text-decoration: none; color: white;">Bóng
+                                    chuyền </a></p>
+                            <p><a href="../HTML/DungCuNgoaiTroi.html" style="text-decoration: none; color: white;">Dụng
+                                    cụ ngoài trời</a></p>
+
+
+                        </div>
+                        <div class="col-md-4" style="color: white;">
+                            <p><b>THÔNG TIN</b></p>
+                            <p><a href="../HTML/GioiThieu.html" style="text-decoration: none; color: white;">Giới
+                                    thiệu</a> </p>
+                            <p><a href="../HTML/GioHang.html" style="text-decoration: none; color: white;">Thanh
+                                    toán</a> </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p style="color: white;"><b>LIÊN HỆ</b></p>
+                            <a href="https://www.facebook.com/manhmanh.004"
+                                style="text-decoration: none; color: blue;"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/nguyen.yeu.186590/"
+                                style="text-decoration: none; color: blue;"><i class="fa-brands fa-facebook"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
