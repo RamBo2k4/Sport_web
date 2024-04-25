@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="../CSS/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="../JS/js/jquery-3.7.1.min.js"></script>
+    <link rel="shotcut icon" href="../IMG/logo_shop.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/style_QuanAoBongDa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>QUẦN ÁO BÓNG ĐÁ</title>
+</head>
+
+<body>
+    <header id="header">
+        <!-- dau header -->
+        <div class="container ">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link " style="color: black;" href="../HTML/GioiThieu.html"><i
+                            class="fa-solid fa-circle-info" style="color: #0a57db;"></i> Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: black;" href="../HTML/login.html"><i class="fa-solid fa-user"
+                            style="color: #1841a0;"></i> Đăng nhập/Đăng ký</a>
+                </li>
+            </ul>
+        </div>
+        <!-- giua header -->
+        <div class="container">
+            <div class="row">
+                <!-- logo -->
+                <div class="col-md-4" style="align-items: center;">
+                    <a href="../HTML/home.html"><img src="../IMG/logo_shop.png" alt="" srcset="" width="250px"
+                            height="100px"></a>
+                </div>
+                <div class="col-md-4">
+                    <!-- search -->
+                    <div class="InputContainer">
+                        <input type="text" name="text" class="input" id="input" placeholder="Search">
+
+                        <button class="micButton">
+                            <svg viewBox="0 0 512 512" class="searchIcon">
+                                <path
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+                                </path>
+                            </svg>
+                        </button>
+
+                        <div class="border"></div>
+
+                        <button class="micButton"><svg viewBox="0 0 384 512" class="micIcon">
+                                <path
+                                    d="M192 0C139 0 96 43 96 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z">
+                                </path>
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col-md">
+                        <!-- hotline -->
+                        <div class="col-4"><i class="fa-solid fa-phone-volume fa-2xl"
+                                style="color: red; margin-top: 35%; margin-left: 20%; float: left;"></i></div>
+                        <div class="col-8" style="float: left;margin-top: 3%; color: brown;"><a class="nav-link"
+                                href="#" style="color: red;">hotline <br>0375917110</a></div>
+                    </div>
+                    <div class="col-md">
+                        <!-- gio hang -->
+                        <a class="nav-link border-2" href="../HTML/GioHang.html"><i
+                                class="fa-solid fa-basket-shopping fa-2xl"
+                                style="color: red; margin-top: 10%; float: left; "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark my-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand mx-5" href="../HTML/home.html"><i class="fa-solid fa-house"
+                    style="color: red;"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="mynavbar">
+                <ul class="nav navbar-nav me-auto  ">
+                    <!-- item 1 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="../HTML/DungCuTheThao.html" role="button"
+                            data-bs-toggle="dropdown">DỤNG CỤ THỂ
+                            THAO</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item text-white" href="../HTML/BongDa.HTML">BÓNG ĐÁ</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/BongChuyen.html">BÓNG CHUYỀN</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/BoiLoi.html">BƠI LỘI</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/CauLong.html">CẦU LÔNG</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/Tennis.html">TENNIS</a></li>
+                        </ul>
+                    </li>
+                    <!-- item 2 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="../HTML/DungCuTheHinh.html" role="button"
+                            data-bs-toggle="dropdown">DỤNG CỤ THỂ
+                            HÌNH</a>
+                        <ul class="dropdown-menu bg-dark ">
+                            <li><a id="list" class="dropdown-item text-white " href="../HTML/MayTapTheHinh.html">MÁY TẬP
+                                    THỂ HÌNH</a></li>
+                            <li><a class="dropdown-item text-white" href="../HTML/TaVSPhuKienTheHinh.html">TẠ & PHỤ KIỆN
+                                    THỂ HÌNH</a></li>
+                        </ul>
+                    </li>
+                    <!-- item 3 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="../HTML/TrangPhucTheThao.html"
+                            role="button" data-bs-toggle="dropdown">TRANG PHỤC
+                            THỂ THAO</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a href="../HTML/QuanAoBongDa.html" class="dropdown-item text-white">QUẦN ÁO BÓNG ĐÁ</a>
+                            </li>
+                            <li><a href="../HTML/QuanAoBongChuyen.html" class="dropdown-item text-white">QUẦN ÁO BÓNG
+                                    CHUYỀN</a></li>
+                        </ul>
+                    </li>
+                    <!-- item 4 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white " href="../HTML/ThietBiDayHoc.html" role="button"
+                            data-bs-toggle="none">THIẾT BỊ DẠY
+                            HỌC</a>
+                    </li>
+                    <!-- item 5 -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="../HTML/SanPhamKhac.html" role="button"
+                            data-bs-toggle="dropdown">SẢN PHẨM
+                            KHÁC</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a href="../HTML/DungCuNgoaiTroi.html" class="dropdown-item text-white">DỤNG CỤ NGOÀI
+                                    TRỜI</a></li>
+                            <li><a href="../HTML/BangBaoVe.html" class="dropdown-item text-white">BĂNG BẢO VỆ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <section> -->
+    <section>
+        <div class="container">
+            <h1>QUẦN ÁO BÓNG ĐÁ</h1>
+            <p>Bạn cần gì  chúng tôi đều có”. Tất cả phụ kiện bảo vệ khi chơi thể thao: bảo vệ tay, chân, vai lưng, băng trán thể thao, kính bơi,.. chính hãng, giá niêm yết.,  hãy liên hệ ngay với Mạnh-Nguyên Sport qua số điện thoại
+                0939987456
+                để được tư vấn và đặt hàng nhanh nhất.</p>
+            <div class="bg-dark-subtle">
+                <h3 class="nomal-title p-2">
+                    <a href="#">QUẦN ÁO BÓNG ĐÁ</a>
+                </h3>
+
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                        <!-- Sản phẩm 1 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/QuanAoBongDa/Ao-bong-da-arsenal-do-hang-viet-nam-0-removebg-preview.png" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#qabong1">
+                                    <p style="color: #0a57db;">Áo bóng đá Arsenal sân nhà 23/24</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>100,000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="qabong1">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Áo bóng đá Arsenal sân nhà 23/24</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/QuanAoBongDa/Ao-bong-da-arsenal-do-hang-viet-nam-0-removebg-preview.png"
+                                                        alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Áo bóng đá Arsenal sân nhà 23/24</h3>
+                                                        <p>- Thương hiệu: Khác</p>
+                                                        <p>- Xuất xứ: Việt Nam.</p>
+                                                        <p>- Chất liệu: 100% Polyester - Thun lạnh co giản và thấm hút / Thoát mồ hôi tốt</p>
+                                                        <p>- Kiểu dáng: Regular Form - Form suông  châu Á</p>
+                                                        <p>- Size: S - M - L - XL - 2XL</p>
+                                                        <p>- Logo thêu chỉ chắc chắn, các hoạ tiết in chuyển sắc nét.</p>
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Áo bóng đá Arsenal sân nhà 23/24</b>
+                                                            sẽ được sản xuất giống 99% áo chính hãng, phiên bản cầu thủ thi đấu trên sân. Các nhà sản xuất đến từ xứ sở “Chùa Vàng” sẽ mô phỏng 99% dựa trên mẫu Authentic (Adidas) / Jersey Match (Nike), thường được gọi là bản Player, bản Super Fake (S.F).
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>100,000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 2 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/QuanAoBongDa/Ao-bong-da-atletico-madrid-trang-xanh-0-removebg-preview.png" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#qabong2">
+                                    <p style="color: #0a57db;">Áo Atletico Madrid trắng xanh sân khách 23/24</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>100,000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="qabong2">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Áo Atletico Madrid trắng xanh sân khách 23/24 </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/QuanAoBongDa/Ao-bong-da-atletico-madrid-trang-xanh-0-removebg-preview.png"
+                                                        alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Áo Atletico Madrid trắng xanh sân khách 23/24  </h3>
+                                                        <p>- Thương hiệu: Khác</p>
+                                                        <p>- Xuất xứ: Việt Nam.</p>
+                                                        <p>- Chất liệu: 100% Polyester - Thun lạnh co giản và thấm hút / Thoát mồ hôi tốt</p>
+                                                        <p>- Kiểu dáng: Regular Form - Form suông  châu Á</p>
+                                                        <p>- Size: S - M - L - XL - 2XL</p>
+                                                        <p>- Logo thêu chỉ chắc chắn, các hoạ tiết in chuyển sắc nét.</p>
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Áo Atletico Madrid trắng xanh sân khách 23/24 </b>
+                                                            sẽ được sản xuất giống 99% áo chính hãng, phiên bản cầu thủ thi đấu trên sân. Các nhà sản xuất đến từ xứ sở “Chùa Vàng” sẽ mô phỏng 99% dựa trên mẫu Authentic (Adidas) / Jersey Match (Nike), thường được gọi là bản Player, bản Super Fake (S.F).
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>100,000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 3 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/QuanAoBongDa/VN_AC-Milan-3-removebg-preview.png" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#qabong3">
+                                    <p style="color: #0a57db;">Áo bóng đá AC Milan hồng sân khách mẫu ba mùa giải 23/24</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>100,000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="qabong3">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Áo bóng đá AC Milan hồng sân khách mẫu ba mùa giải 23/24 </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/QuanAoBongDa/VN_AC-Milan-3-removebg-preview.png"
+                                                        alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Áo bóng đá AC Milan hồng sân khách mẫu ba mùa giải 23/24  </h3>
+                                                        <p>- Thương hiệu: Khác</p>
+                                                        <p>- Xuất xứ: Việt Nam.</p>
+                                                        <p>- Chất liệu: 100% Polyester - Thun lạnh co giản và thấm hút / Thoát mồ hôi tốt</p>
+                                                        <p>- Kiểu dáng: Regular Form - Form suông  châu Á</p>
+                                                        <p>- Size: S - M - L - XL - 2XL</p>
+                                                        <p>- Logo thêu chỉ chắc chắn, các hoạ tiết in chuyển sắc nét.</p>
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Áo bóng đá AC Milan hồng sân khách mẫu ba mùa giải 23/24 </b>
+                                                            sẽ được sản xuất giống 99% áo chính hãng, phiên bản cầu thủ thi đấu trên sân. Các nhà sản xuất đến từ xứ sở “Chùa Vàng” sẽ mô phỏng 99% dựa trên mẫu Authentic (Adidas) / Jersey Match (Nike), thường được gọi là bản Player, bản Super Fake (S.F).
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>100,000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 4 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/QuanAoBongDa/VN_AC-Milan-10-removebg-preview.png" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#qabong4">
+                                    <p style="color: #0a57db;">Áo bóng đá AC Milan sọc đỏ đen sân nhà 23/24</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>100,000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="qabong4">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Áo bóng đá AC Milan sọc đỏ đen sân nhà 23/24 </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/QuanAoBongDa/VN_AC-Milan-10-removebg-preview.png"
+                                                        alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Áo bóng đá AC Milan sọc đỏ đen sân nhà 23/24  </h3>
+                                                        <p>- Thương hiệu: Khác</p>
+                                                        <p>- Xuất xứ: Việt Nam.</p>
+                                                        <p>- Chất liệu: 100% Polyester - Thun lạnh co giản và thấm hút / Thoát mồ hôi tốt</p>
+                                                        <p>- Kiểu dáng: Regular Form - Form suông  châu Á</p>
+                                                        <p>- Size: S - M - L - XL - 2XL</p>
+                                                        <p>- Logo thêu chỉ chắc chắn, các hoạ tiết in chuyển sắc nét.</p>
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Áo bóng đá AC Milan sọc đỏ đen sân nhà 23/24 </b>
+                                                            sẽ được sản xuất giống 99% áo chính hãng, phiên bản cầu thủ thi đấu trên sân. Các nhà sản xuất đến từ xứ sở “Chùa Vàng” sẽ mô phỏng 99% dựa trên mẫu Authentic (Adidas) / Jersey Match (Nike), thường được gọi là bản Player, bản Super Fake (S.F).
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>100,000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sản phẩm 5 -->
+                        <div class="card">
+                            <div class="card-img-top p-2">
+                                <img src="../IMG/QuanAoBongDa/Ao-bong-da-arsenal-xanh-ly-0-removebg-preview.png" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a type="link" class="btn" data-bs-toggle="modal" data-bs-target="#qabong5">
+                                    <p style="color: #0a57db;">Áo bóng đá Arsenal sân nhà 23/24 hàng Thái Lan</p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <b><span>100,000<sup>đ</sup></span></b>
+                            </div>
+                            <div class="modal" id="qabong5">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Áo bóng đá Arsenal sân nhà 23/24 hàng Thái Lan </h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6"><img
+                                                        src="../IMG/QuanAoBongDa/Ao-bong-da-arsenal-xanh-ly-0-removebg-preview.png"
+                                                        alt=""></div>
+                                                <div class="col-md-6">
+                                                    <div class="border-bottom ">
+                                                        <h3 class="border-bottom">Áo bóng đá Arsenal sân nhà 23/24 hàng Thái Lan  </h3>
+                                                        <p>- Thương hiệu: Khác</p>
+                                                        <p>- Xuất xứ: Việt Nam.</p>
+                                                        <p>- Chất liệu: 100% Polyester - Thun lạnh co giản và thấm hút / Thoát mồ hôi tốt</p>
+                                                        <p>- Kiểu dáng: Regular Form - Form suông  châu Á</p>
+                                                        <p>- Size: S - M - L - XL - 2XL</p>
+                                                        <p>- Logo thêu chỉ chắc chắn, các hoạ tiết in chuyển sắc nét.</p>
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                    <div class="border-bottom">
+                                                        <p>
+                                                            -<b>Áo bóng đá Arsenal sân nhà 23/24 hàng Thái Lan </b>
+                                                            sẽ được sản xuất giống 99% áo chính hãng, phiên bản cầu thủ thi đấu trên sân. Các nhà sản xuất đến từ xứ sở “Chùa Vàng” sẽ mô phỏng 99% dựa trên mẫu Authentic (Adidas) / Jersey Match (Nike), thường được gọi là bản Player, bản Super Fake (S.F).
+                                                        </p>
+                                                    </div>
+                                                    <div class="border-bottom text-danger">
+                                                        <h1>100,000 Đ</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <input type="number" style="width: 100px;" min="1" placeholder="Số lượng">
+                                            <button type="button" class="btn btn-danger">Thêm Vào Giỏ</button>
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- <footer> -->
+    <footer class="container-fluid bg-dark mt-5">
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-6 p-2 " style="color: white; text-justify: auto;" id="f-1">
+                    <br>
+                    <p><b>DỤNG CỤ <span style="color: red;">THỂ DỤC THỂ THAO</b></span> <br></p><br>
+                    Dụng Cụ Thể Dục là đơn vị chuyên bán buôn bán lẻ dụng cụ thể thao, máy tập thể dục và dụng cụ tập
+                    Gym. Cam kết
+                    chính hãng, giá rẻ nhất tại Việt Nam. Quý khách hàng có nhu cầu mua dụng cụ thể dục, thể thao và thể
+                    hình xin
+                    vui lòng liên hệ: <br>
+                    <br><b>Hộ kinh doanh Mạnh-Nguyên Sport</b> <br><br>
+                    - Điện thoại: 0375917***<br>
+                    - Email: lienhe@dungcutheduc.vn
+                </div>
+                <div class="col-md-6">
+                    <div id="f-2" class="row">
+                        <div class="col-md-6" style=" color: white;">
+                            <br>
+                            <P><b>HỒ CHÍ MINH</b></P>
+
+                            <i class="fa-solid fa-location-dot" style="color: red;"></i> 16/1 Quang Trung, phường 11,Gò
+                            Vấp. <br>
+
+                            <i class="fa-solid fa-square-phone" style="color: red;"></i> 0375917110 <br>
+                            <i class="fa-solid fa-road" style="color: red;"></i> xem so đồ đường đi
+                        </div>
+                        <div class="col-md-6"><a href="../HTML/home.html"><img class="img-fluid"
+                                    src="../IMG/logo_shop.png" width="100%" height="70%" style="margin-top: 5%;" alt=""
+                                    srcset=""></a></div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-4" style="color: white;">
+                            <p><b>SẢN PHẨM</b></p>
+                            <p><a href="../HTML/Tennis.html" style="text-decoration: none; color: white;">Tennis</a>
+                            </p>
+                            <p><a href="../HTML/BongDa.HTML" style="text-decoration: none; color: white;">Bóng đá</a>
+                            </p>
+                            <p><a href="../HTML/BongChuyen.html" style="text-decoration: none; color: white;">Bóng
+                                    chuyền </a></p>
+                            <p><a href="../HTML/DungCuNgoaiTroi.html" style="text-decoration: none; color: white;">Dụng
+                                    cụ ngoài trời</a></p>
+
+
+                        </div>
+                        <div class="col-md-4" style="color: white;">
+                            <p><b>THÔNG TIN</b></p>
+                            <p><a href="../HTML/GioiThieu.html" style="text-decoration: none; color: white;">Giới
+                                    thiệu</a> </p>
+                            <p><a href="../HTML/GioHang.html" style="text-decoration: none; color: white;">Thanh
+                                    toán</a> </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p style="color: white;"><b>LIÊN HỆ</b></p>
+                            <a href="https://www.facebook.com/manhmanh.004"
+                                style="text-decoration: none; color: blue;"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/nguyen.yeu.186590/"
+                                style="text-decoration: none; color: blue;"><i class="fa-brands fa-facebook"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
